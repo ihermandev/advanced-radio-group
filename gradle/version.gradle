@@ -1,0 +1,25 @@
+ext {
+    /** SDK **/
+    androidMinSdk = 19
+    androidCompileSdk = 33
+    androidTargetSdk = 33
+
+    /** Application **/
+    versionCode = 1
+    versionName = "1.0.0"
+
+    /** Environment **/
+    toolsVersion = "7.3.1"
+    kotlinVersion = "1.7.20"
+    nexusPublishPluginVersion = "1.1.0"
+
+    /** Android **/
+    androidxAppCompatVersion = "1.6.1"
+    materialVersion = "1.8.0"
+    androidXAnnotationVersion = "1.5.0"
+
+    /** Tests **/
+    jUnitVerstion = "4.13.2"
+    jUnitExtVersion = "1.1.5"
+    espressoCoreVersion = "3.5.1"
+}

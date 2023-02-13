@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">advanced-radio-group</string>
+    <string name="regular_radio_group_label">-=Regular radio group=-</string>
+    <string name="subtitle_radio_group_label">-=Radio group with title and subtitle=-</string>
+    <string name="assets_radio_group_label">-=Radio group with assets=-</string>
+    <string name="one_radio_group_text">One</string>
+    <string name="two_radio_group_text">Two</string>
+    <string name="random_title_text_1">Similique fugiat soluta modi</string>
+    <string name="random_sub_title_text_1">Quos voluptates libero provident dolor ex hic</string>
+    <string name="random_title_text_2">Facilis est adipisci aut</string>
+    <string name="random_sub_title_text_2">Expedita rerum sunt eos ea nihil voluptates doloremque commodi. Autem error hic aliquid provident nam nisi rerum ab.</string>
+</resources>

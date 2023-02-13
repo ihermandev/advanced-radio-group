@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+apply from: "$rootDir/gradle/version.gradle"
+
+android {
+    namespace 'com.github.ihermandev.sample'
+    compileSdk androidCompileSdk
+
+    defaultConfig {
+        applicationId "com.github.ihermandev.advancedradiogroup.sample"
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
+        versionCode versionCode
+        versionName versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+}
+
+dependencies {
+    implementation project(':advanced-radio-group')
+
+    implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+
+    testImplementation "junit:junit:$jUnitVerstion"
+    androidTestImplementation "androidx.test.ext:junit:$jUnitExtVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoCoreVersion"
+}

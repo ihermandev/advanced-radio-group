@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+ext {
+    PUBLISH_GROUP_ID = 'io.github.ihermandev'
+    PUBLISH_ARTIFACT_ID = 'advanced-radio-group'
+}
+
+apply from: "$rootProject.projectDir/gradle/version.gradle"
+//apply from: "$rootProject.projectDir/gradle/publish-module.gradle"
+
+android {
+    namespace 'com.github.ihermandev.formatwatcher'
+    compileSdk androidCompileSdk
+
+    defaultConfig {
+        minSdk androidMinSdk
+        targetSdk androidTargetSdk
+        versionCode versionCode
+        versionName versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+}
+
+dependencies {
+
+    implementation "androidx.annotation:annotation:$androidXAnnotationVersion"
+}
