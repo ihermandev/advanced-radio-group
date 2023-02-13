@@ -59,5 +59,9 @@ advancedRadioGroup.setOnCheckedChangeListener { group, checkedId ->
 ## Contribute
 If you find any bugs or have any suggestions for improvements, please open an issue or create a pull
 request on the [GitHub repository](https://github.com/ihermandev/advanced-radio-group)
+### Demo
+
+https://user-images.githubusercontent.com/25265967/218590352-6d44f2da-0a73-4c4b-92b0-3c460d0ba01b.mp4
+
 ## License
 This library is released under the Apache 2.0 license. See the [LICENSE](https://github.com/ihermandev/advanced-radio-group/blob/master/LICENSE.md) file for more information.
